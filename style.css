@@ -1,0 +1,76 @@
+*{
+    background-color: rgb(214, 206, 206);
+    margin: 0;
+}
+
+.container{
+    position: relative;
+    top:100px;
+   height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    
+    
+}
+.head{
+    font-size: 20px;
+    font-weight: 700;
+    font-family: sans-serif;
+    margin-bottom: 20px;
+}
+#input1{
+    height: 30px;
+    border: 3px orange solid;
+    border-radius: 5px;
+    background-color: white;
+    vertical-align: middle;
+    color: purple;
+}
+#btn1{
+    width: 45px;
+    height: 30px;
+    border: 0.5px solid black;
+    border-radius: 5px;
+    background-color: darkgreen;
+    color: #fff;
+}
+#btn2{
+    height: 30px;
+    border: 0.5px solid rgb(207, 198, 198);
+    border-radius: 5px;
+    background-color: rgb(197, 50, 50);
+    color: #fff;
+}
+#myList{
+    text-align: center;
+    width: 400px;
+    min-height: 300px ;
+    margin-top: 20px;
+    border: 1px solid rgb(161, 155, 155);
+    background-color: bisque;
+}
+#btn1:active{
+    background-color: rgb(129, 129, 161);
+    
+    color: #fff;
+}
+#btn1:hover{
+    cursor: pointer;
+}
+#btn2:hover{
+    cursor: pointer;
+}
+.paragraph-styling{
+   cursor: pointer;
+   text-transform: capitalize;
+    color: chocolate;
+    font-size: 30px;background-color: bisque;
+}
+.cizgili{
+    text-decoration: line-through;
+}
+.cizgiKaldir{
+    text-decoration: none;
+}
